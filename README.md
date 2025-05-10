@@ -62,15 +62,10 @@ Starter template for a new TON project - FunC contracts, unit tests, compilation
   * Resulting build artifacts include:
     * `build/*.compiled.json` - the binary code cell of the compiled contract (for deployment). Saved in a hex format within a json file to support webapp imports
 
-* Test
-  * In the root repo dir, run in terminal `yarn test`
-  * Don't forget to build (or rebuild) before running tests
-  * Tests are running inside Node.js by running TVM in web-assembly using [sandbox](https://github.com/ton-community/sandbox)
-
 * Deploy
   * Run `yarn blueprint run <deployscript>`
   * Contracts will be rebuilt on each execution
   * Follow the on-screen instructions of the deploy script
   
 # License
-MIT
+MIT C
